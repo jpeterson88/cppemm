@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app=cppemmApp>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		document.write('<base href="' + document.location + '" />');
+	</script>
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/bootswatch.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/simple-sidebar.css">
+	<title>CPPEMM</title>
+
+	<!-- <base href="/"> -->
+
+</head>
+
+<body id="page">
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand">
+					<!-- <a class="navbar-brand" href="#"><img src="./images/brand.png"> </a> -->
+				</li>
+				<li data-ng-class="{'active' : isActive('/program')}"><a href="./program">About</a></li>
+				<li data-ng-class="{'active' : isActive('/degreeRequirements') }"><a href="./degreeRequirements">Degree Requirements</a></li>
+				<li data-ng-class="{'active' : isActive('/courseDescription')}"><a href="./courseDescription">Course Descriptions</a></li>
+				<li data-ng-class="{'active' : isActive('/facilities')}"><a href="./facilities">Lab Facilities</a></li>
+				<li data-ng-class="{'active' : isActive('/thesisProject')}"><a href="./thesisProject">Thesis Project</a></li>
+				<li role="separator" class="divider"></li>
+				<li data-ng-class="{'active' : isActive('/catalog')}"><a href="./catalog">Cal Poly Catalog</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">CEIS Home</a></li>
+				<li data-ng-class="{'active' : isActive('/admissions')}"><a href="./admissions">Admissions</a></li>
+				<li data-ng-class="{'active' : isActive('/successStories')}"><a href="./successStories">Success Stories</a></li>
+				<li data-ng-class="{'active' : isActive('/faculty')}"><a href="./faculty">Faculty</a></li>
+				<li data-ng-class="{'active' : isActive('/afterGraduation')}"><a href="./afterGraduation">After Graduation</a></li>
+				<li data-ng-class="{'active' : isActive('/contact')}"><a href="./contact">Contact</a></li>
+				<li data-ng-class="{'active' : isActive('/testPage')}"><a href="./testPage">test</a></li>
+				<li data-ng-class="{'active' : isActive('/testPage2')}"><a href="./testPage2">test2</a></li>				
+			</ul>
+		</div>
+
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="view-container">
+
+							<a href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+							<div ng-view class="view-frame reveal-animation"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+	<script src="node_modules/angular-route/angular-route.min.js"></script>
+	<script src="scripts/app.js"></script>
+	<script src="scripts/controllers.js"></script>
+	<script>
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("toggled");
+		});
+	</script>
+	<!--<script src="scripts/3dcarousel.js"></script>-->
+</body>
+
+</html>
