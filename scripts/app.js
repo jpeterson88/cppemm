@@ -33,7 +33,7 @@ cppemmApp.config(function($routeProvider, $locationProvider) {
         templateUrl: 'pages/facilities.html',
     }).
     when('/faculty', {
-        templateUrl: 'pages/faculty2.html',
+        templateUrl: 'pages/facultyCarousel.html',
     }).
     when('/menu', {
         templateUrl: 'pages/menu.html',
@@ -46,18 +46,6 @@ cppemmApp.config(function($routeProvider, $locationProvider) {
     }).
     when('/thesisProject', {
         templateUrl: 'pages/thesisProject.html',
-    }).
-    when('/testPage', {
-        templateUrl: 'pages/testPage.html',
-        controller : "TestController"
-    }).
-    when('/testPage2', {
-        templateUrl: 'pages/testPage2.html',
-        controller : "TestController"
-    }).
-        when('/testPage3', {
-        templateUrl: 'pages/testPage3.html',
-        controller : "TestController"
     }).
     otherwise({
         redirectTo: '/program'
