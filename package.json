@@ -1,11 +1,31 @@
 {
   "name": "cppemm2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-animate": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "nodemailer": "^2.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpeterson88/cppemm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpeterson88/cppemm/issues"
+  },
+  "homepage": "https://github.com/jpeterson88/cppemm#readme",
+  "description": ""
 }

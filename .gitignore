@@ -1,0 +1,8 @@
+.DS_Store
+
+#################
+## Directories
+#################
+
+images/
+node_module/
