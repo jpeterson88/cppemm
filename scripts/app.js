@@ -2,7 +2,6 @@
 
 var cppemmApp = angular.module('cppemmApp', [
     'ngRoute',
-    //'ui.bootstrap',
     'ngAnimate'
 
 ]);
