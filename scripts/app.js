@@ -32,7 +32,7 @@ cppemmApp.config(function($routeProvider, $locationProvider) {
         templateUrl: 'pages/facilities.html',
     }).
     when('/faculty', {
-        templateUrl: 'pages/facultyCarousel.html',
+        templateUrl: 'pages/faculty.html',
     }).
     when('/menu', {
         templateUrl: 'pages/menu.html',
