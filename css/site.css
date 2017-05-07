@@ -12,13 +12,13 @@ h2 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 #buffer {
 	padding-left: 8%;
 	padding-right: 8%;
-	padding-top:130px;
+	padding-top:140px;
 }
 
 #cpp-navbar {
@@ -66,6 +66,13 @@ p {
 	float:right;
 }
 
+.quote {
+    position: relative;
+    margin-top: 40px;
+    background: rgb(237, 193, 80);
+    padding: 60px;
+    border-radius: 5px;
+}
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .headerpadbottom { margin-bottom: 75px; }
