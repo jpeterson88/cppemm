@@ -1,3 +1,13 @@
+h1 {
+  color: #00512b;
+}
+
+#buffer {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .headerpadbottom { margin-bottom: 75px; }
 
