@@ -10,7 +10,12 @@ app.listen(process.env.PORT || 4223);
 var port = process.env.PORT != null ? process.env.PORT :  4223;
 console.log('listening on port:' + port);
 
-app.get('/[^\.]+$', function(req, res){
-    res.set('Content-Type', 'text/html')
-        .sendFile(__dirname + '/index.html');
+
+app.use('/scripts', express.static(__dirname + '/scripts'));
+app.use('/css', express.static(__dirname + '/css'));
+app.use('/pages', express.static(__dirname + '/pages'));
+
+app.all('/*', function(req, res, next) {
+    
+    res.sendFile('index.html', { root: __dirname });
 });
