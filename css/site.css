@@ -1,3 +1,5 @@
+
+
 body {
     font-size: 100%;
 }
@@ -85,9 +87,3 @@ p {
 		  -webkit-perspective: 1100px;
 		  perspective: 1100px;
 		}
-	
-.vcenter {
-    display: inline-block;
-    vertical-align: top;
-    float: none;
-}
