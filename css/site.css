@@ -1,10 +1,43 @@
+body {
+    font-size: 100%;
+}
+
 h1 {
-  color: #00512b;
+    font-size: 5em;
+	color: #00512b;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
 }
 
 #buffer {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+#cpp-navbar {
+	font-size: 1.5em;
+	
+}
+
+#banner {
+	background-color: #00512b;
+	font-size: 2vw;
+	color: #ffffff;
+	padding:5px;
+	font-family: inherit;
+	font-weight:100;
+	letter-spacing: .4px;
+}
+
+#banner img {
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 
@@ -14,6 +47,7 @@ h1 {
 .navbar .navbar-nav {
   display: inline-block;
   vertical-align: top;
+  float:right;
 }
 
 #perspective {
