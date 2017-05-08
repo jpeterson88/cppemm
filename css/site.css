@@ -68,25 +68,48 @@ p {
 	float:right;
 }
 
-.quote {
+
+.quote3 {
     margin-top: 10px;
-	margin-bottom: 10px;
-    background: rgb(237, 193, 80);
+	margin-bottom: 20px;
+	background: rgb(246, 246, 246);
+	border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 81, 43);
     padding: 40px;
     border-radius: 15px;
 }
 
-.quote p {
-	font-weight:1em;
+.quote2 {
+    margin-top: 10px;
+	margin-bottom: 20px;
+	background: rgb(246, 246, 246);
+    padding: 40px;
+    border-radius: 15px;
 }
 
-.quote .pull-left {
+.quote {
+    margin-top: 10px;
+	margin-bottom: 20px;
+	background: rgba(237, 193, 80, 0.4);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+
+.quote p, .quote2 p {
+	font-size:1.5em;
+	margin-bottom:0;
+}
+
+.quote .pull-left, .quote2 .pull-left {
     margin-right:15px;
 }
 
-.quote .pull-right {
+.quote .pull-right, .quote2 .pull-right {
     margin-left:15px;
 }
+
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .headerpadbottom { margin-bottom: 75px; }
