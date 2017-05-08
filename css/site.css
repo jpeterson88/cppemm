@@ -12,10 +12,15 @@ h1 {
 h2 {
     font-size: 4em;
 	font-weight:100;
+	margin-top:40px;
 }
 
 h3 {
 	margin-top:0px;
+}
+
+h4 {
+	font-weight:bold;
 }
 
 p {
@@ -26,6 +31,18 @@ p {
 	padding-left: 8%;
 	padding-right: 8%;
 	padding-top:140px;
+	padding-bottom:20px;
+}
+
+#footer {
+	font-weight:100;
+	font-size:.8em;
+	letter-spacing: .4px;
+	border-top: 1px solid #00512b;
+	padding:20px;
+	text-align:center;
+	color:#666666;
+	vertical-align:middle;
 }
 
 #cpp-navbar {
@@ -99,13 +116,15 @@ p {
     margin-left:15px;
 }
 
-.indent {
+.indent p{
 /*! border-left: 20px double #cccccc; */
-	padding-left: 20px;
+padding-left:20px;
+margin-bottom:25px;
 }
 
 .list {
 	font-size:1.7em;
+	margin-bottom:30px;
 }
 
 hr {
