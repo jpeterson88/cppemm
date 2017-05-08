@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     font-size: 4em;
+	font-weight:100;
 }
 
 h3 {
@@ -69,17 +70,6 @@ p {
 }
 
 
-.quote3 {
-    margin-top: 10px;
-	margin-bottom: 20px;
-	background: rgb(246, 246, 246);
-	border-width: 5px;
-    border-style: solid;
-    border-color: rgb(0, 81, 43);
-    padding: 40px;
-    border-radius: 15px;
-}
-
 .quote2 {
     margin-top: 10px;
 	margin-bottom: 20px;
@@ -96,7 +86,6 @@ p {
     border-radius: 15px;
 }
 
-
 .quote p, .quote2 p {
 	font-size:1.5em;
 	margin-bottom:0;
@@ -110,6 +99,19 @@ p {
     margin-left:15px;
 }
 
+.indent {
+/*! border-left: 20px double #cccccc; */
+	padding-left: 20px;
+}
+
+.list {
+	font-size:1.7em;
+}
+
+hr {
+	color: #EBB325;
+	border-bottom: 2px solid #EBB325;
+}
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .headerpadbottom { margin-bottom: 75px; }
