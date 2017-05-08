@@ -17,58 +17,55 @@
 
 <body id="page">
 	<div id="wrapper">
-		<div id="sticky">
-			<div id="banner">
+
+		<!--navbar navbar-default navbar-fixed-top-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div id="banner" col-xs-12>
 				<img id="emmlogo" src="./images/cpplogo3.png" alt="CPP logo"><span>MA in Education - Educational Multimedia Program</span>
 				<img id="cpplogo" src="./images/cpp.png" alt="Cal Poly Pomona">
 			</div>
-
-			<!--navbar navbar-default navbar-fixed-top-->
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cpp-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="cpp-navbar">
-						<ul class="nav navbar-nav">
-
-
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li data-ng-class="{'active' : isActive('/program')}"><a href="./program">About</a></li>
-									<li data-ng-class="{'active' : isActive('/degreeRequirements') }"><a href="./degreeRequirements">Degree Requirements</a></li>
-									<li data-ng-class="{'active' : isActive('/courseDescription')}"><a href="./courseDescription">Course Descriptions</a></li>
-									<li data-ng-class="{'active' : isActive('/facilities')}"><a href="./facilities">Lab Facilities</a></li>
-									<li data-ng-class="{'active' : isActive('/thesisProject')}"><a href="./thesisProject">Thesis Project</a></li>
-									<li role="separator" class="divider"></li>
-									<li data-ng-class="{'active' : isActive('/catalog')}"><a href="./catalog">Cal Poly Catalog</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">CEIS Home</a></li>
-								</ul>
-							</li>
-
-							<li data-ng-class="{'active' : isActive('/admissions')}"><a href="./admissions">Admissions</a></li>
-							<li data-ng-class="{'active' : isActive('/successStories')}"><a href="./successStories">Success Stories</a></li>
-							<li data-ng-class="{'active' : isActive('/faculty')}"><a href="./faculty">Faculty</a></li>
-							<li data-ng-class="{'active' : isActive('/afterGraduation')}"><a href="./afterGraduation">After Graduation</a></li>
-							<li data-ng-class="{'active' : isActive('/contact')}"><a href="./contact">Contact</a></li>
-
-						</ul>
-					</div>
-					<!-- /.navbar-collapse -->
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cpp-navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
-				<!-- /.container-fluid -->
-			</nav>
-		</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="cpp-navbar">
+					<ul class="nav navbar-nav">
+
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li data-ng-class="{'active' : isActive('/program')}"><a href="./program">About</a></li>
+								<li data-ng-class="{'active' : isActive('/degreeRequirements') }"><a href="./degreeRequirements">Degree Requirements</a></li>
+								<li data-ng-class="{'active' : isActive('/courseDescription')}"><a href="./courseDescription">Course Descriptions</a></li>
+								<li data-ng-class="{'active' : isActive('/facilities')}"><a href="./facilities">Lab Facilities</a></li>
+								<li data-ng-class="{'active' : isActive('/thesisProject')}"><a href="./thesisProject">Thesis Project</a></li>
+								<li role="separator" class="divider"></li>
+								<li data-ng-class="{'active' : isActive('/catalog')}"><a href="./catalog">Cal Poly Catalog</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">CEIS Home</a></li>
+							</ul>
+						</li>
+
+						<li data-ng-class="{'active' : isActive('/admissions')}"><a href="./admissions">Admissions</a></li>
+						<li data-ng-class="{'active' : isActive('/successStories')}"><a href="./successStories">Success Stories</a></li>
+						<li data-ng-class="{'active' : isActive('/faculty')}"><a href="./faculty">Faculty</a></li>
+						<li data-ng-class="{'active' : isActive('/afterGraduation')}"><a href="./afterGraduation">After Graduation</a></li>
+						<li data-ng-class="{'active' : isActive('/contact')}"><a href="./contact">Contact</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
 		<!-- end sticky -->
 
 		<div id="page-content-wrapper">
@@ -80,6 +77,7 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
