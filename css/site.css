@@ -161,6 +161,11 @@ p,
 	margin-bottom: 30px;
 }
 
+.noMarg {
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
 .btnlink {
 	font-size:1.8em;
 	margin-top:5px;
@@ -217,7 +222,7 @@ input.custom-form-input [type=text] {
 
 .contact-form {		
 	background: rgb(246, 246, 246);
-	padding: 30px;
+	padding: 40px;
 	border-radius: 15px;
 	margin-bottom: 20px;
 }
