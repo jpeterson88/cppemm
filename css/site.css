@@ -202,46 +202,36 @@ hr {
 	perspective: 1100px;
 }
 
-.job-block {
-	height: 120px;
+#custom-form-input {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 8px;
 }
 
+input.custom-form-input [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
 
-/*
-@media (max-width: 501px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-    
-    .navbar-collapse.collapse.in { 
-        display: block!important;
-    }
-    .collapsing {
-        overflow: hidden!important;
-    }
-}*/
+.contact-form {		
+	background: rgb(246, 246, 246);
+	padding: 30px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+/*Input text*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 4px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 4px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 4px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left: 4px;
+}
