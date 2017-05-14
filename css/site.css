@@ -172,10 +172,38 @@ hr {
 	perspective: 1100px;
 }
 
-.job-block {
-	height: 120px;
+#custom-form-input {
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 8px;
 }
 
+input.custom-form-input [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact-form {		
+	background: rgb(246, 246, 246);
+	padding: 40px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 4px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 4px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 4px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left: 4px;
+}
 
 /*
 @media (max-width: 501px) {
