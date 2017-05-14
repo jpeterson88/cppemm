@@ -132,6 +132,15 @@ margin-bottom:25px;
 	margin-bottom:30px;
 }
 
+.btnlink {
+	font-size:1.8em;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:100%;
+	background: rgba(237, 193, 80, 0.4);
+	text-transform:none;
+}
+
 hr {
 	color: #EBB325;
 	border-bottom: 2px solid #EBB325;
