@@ -1,135 +1,134 @@
-
-
 body {
-    font-size: 100%;
+	font-size: 100%;
 }
 
 h1 {
-    font-size: 5em;
+	font-size: 5em;
 	color: #00512b;
 	padding-bottom: 15px;
 }
 
 h2 {
-    font-size: 4em;
-	font-weight:100;
-	margin-top:40px;
+	font-size: 4em;
+	font-weight: 100;
+	margin-top: 40px;
 }
 
 h3 {
-	margin-top:0px;
+	margin-top: 0px;
 }
 
 .panel-title {
-	font-size:2em;
+	font-size: 2em;
 }
 
 h4 {
-	font-weight:bold;
+	font-weight: bold;
 }
 
-p, .panel-body {
-    font-size: 1.8em;
+p,
+.panel-body {
+	font-size: 1.8em;
 }
 
 #buffer {
 	padding-left: 8%;
 	padding-right: 8%;
-	padding-top:140px;
-	padding-bottom:20px;
+	padding-top: 140px;
+	padding-bottom: 20px;
 }
 
 #footer {
-	font-weight:100;
-	font-size:.8em;
+	font-weight: 100;
+	font-size: .8em;
 	letter-spacing: .4px;
 	border-top: 1px solid #00512b;
-	padding:20px;
-	text-align:center;
-	color:#666666;
-	vertical-align:middle;
+	padding: 20px;
+	text-align: center;
+	color: #666666;
+	vertical-align: middle;
 }
 
 #cpp-navbar {
 	font-size: 1.5em;
-	
 }
 
 #banner {
 	background-color: #00512b;
 	font-size: 2vw;
 	color: #ffffff;
-	padding:5px;
+	padding: 5px;
 	font-family: inherit;
-	font-weight:100;
+	font-weight: 100;
 	letter-spacing: .4px;
 	border-bottom: 5px solid #EBB325;
 	vertical-align: middle;
 }
 
-
 #emmlogo {
 	padding-right: 10px;
 	padding-left: 10px;
-	padding-bottom:5px;
+	padding-bottom: 5px;
 }
 
 #cpplogo {
-	padding-left:20px;
-	max-width:30%;
+	padding-left: 20px;
+	max-width: 30%;
 }
 
 .pic {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 	margin-left: 15px;
-    border-radius: 10%;
-    border-width: 6px;
-    border-style: solid;
-    border-color: rgb(235, 179, 37);
-    border-image: initial;
-    overflow: hidden;
-	float:right;
+	border-radius: 10%;
+	border-width: 6px;
+	border-style: solid;
+	border-color: rgb(235, 179, 37);
+	border-image: initial;
+	overflow: hidden;
+	float: right;
 }
 
-
 .quote2 {
-    margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	background: rgb(246, 246, 246);
-    padding: 40px;
-    border-radius: 15px;
+	padding: 40px;
+	border-radius: 15px;
 }
 
 .quote {
-    margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	background: rgba(237, 193, 80, 0.4);
-    padding: 40px;
-    border-radius: 15px;
+	padding: 40px;
+	border-radius: 15px;
 }
 
-.quote p, .quote2 p {
-	font-size:1.5em;
-	margin-bottom:0;
+.quote p,
+.quote2 p {
+	font-size: 1.5em;
+	margin-bottom: 0;
 }
 
-.quote .pull-left, .quote2 .pull-left {
-    margin-right:15px;
+.quote .pull-left,
+.quote2 .pull-left {
+	margin-right: 15px;
 }
 
-.quote .pull-right, .quote2 .pull-right {
-    margin-left:15px;
+.quote .pull-right,
+.quote2 .pull-right {
+	margin-left: 15px;
 }
 
-.indent p{
-/*! border-left: 20px double #cccccc; */
-padding-left:20px;
-margin-bottom:25px;
+.indent p {
+	/*! border-left: 20px double #cccccc; */
+	padding-left: 20px;
+	margin-bottom: 25px;
 }
 
 .list {
-	font-size:1.7em;
-	margin-bottom:30px;
+	font-size: 1.7em;
+	margin-bottom: 30px;
 }
 
 .btnlink {
@@ -146,21 +145,73 @@ hr {
 	border-bottom: 2px solid #EBB325;
 }
 
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
-.headerpadbottom { margin-bottom: 75px; }
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+	cursor: pointer;
+}
+
+.headerpadbottom {
+	margin-bottom: 75px;
+}
 
 .navbar .navbar-nav {
-  display: inline-block;
-  vertical-align: top;
-  float:right;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
 }
 
 #perspective {
-		  margin: 0 auto;
-		  margin-top: 80px;
-		  width: 310px;
-		  height: 140px;
-		  position: relative;
-		  -webkit-perspective: 1100px;
-		  perspective: 1100px;
-		}
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 310px;
+	height: 140px;
+	position: relative;
+	-webkit-perspective: 1100px;
+	perspective: 1100px;
+}
+
+.job-block {
+	height: 120px;
+}
+
+
+/*
+@media (max-width: 501px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}*/

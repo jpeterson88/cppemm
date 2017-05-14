@@ -49,7 +49,7 @@
 								<li data-ng-class="{'active' : isActive('/facilities')}"><a href="./facilities">Lab Facilities</a></li>
 								<li data-ng-class="{'active' : isActive('/thesisProject')}"><a href="./thesisProject">Thesis Project</a></li>
 								<li role="separator" class="divider"></li>
-								<li data-ng-class="{'active' : isActive('/catalog')}"><a href="./catalog">Cal Poly Catalog</a></li>
+								<li data-ng-class="{'active' : isActive('/catalog')}"><a href="http://catalog.csupomona.edu/" target="_blank">Cal Poly Catalog</a></li>
 								<li role="separator" class="divider"></li>
 								<li><a href="http://www.cpp.edu/~ceis/" target="_blank">CEIS Home</a></li>
 							</ul>
@@ -70,34 +70,31 @@
 
 		<div id="page-content-wrapper">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="view-container">
-						<div ng-view class="view-frame reveal-animation" id="buffer"></div>
-                        
-                        <div id="footer" class="col-xs-12"><p>MA in Education, Educational Multimedia - California State Polytechnic University, Pomona<br>
-<em>Last Modified: 07 Mar 2017</em></p>
-</div>
+				<div class="view-container">
+					<div ng-view class="view-frame reveal-animation" id="buffer"></div>
 
+					<div id="footer" class="col-xs-12">
+						<p>MA in Education, Educational Multimedia - California State Polytechnic University, Pomona<br>
+							<em>Last Modified: 07 Mar 2017</em></p>
 					</div>
 				</div>
+
 			</div>
 		</div>
 
-	</div>
-
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="node_modules/angular/angular.js"></script>
-	<script src="node_modules/angular-animate/angular-animate.min.js"></script>
-	<script src="node_modules/angular-route/angular-route.min.js"></script>
-	<script src="scripts/app.js"></script>
-	<script src="scripts/controllers.js"></script>
-	<script>
-		$("#menu-toggle").click(function (e) {
-			e.preventDefault();
-			$("#wrapper").toggleClass("toggled");
-		});
-	</script>
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="node_modules/angular/angular.js"></script>
+		<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+		<script src="node_modules/angular-route/angular-route.min.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/controllers.js"></script>
+		<script>
+			$("#menu-toggle").click(function (e) {
+				e.preventDefault();
+				$("#wrapper").toggleClass("toggled");
+			});
+		</script>
 
 </body>
 
