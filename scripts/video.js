@@ -1,39 +1,25 @@
-// JavaScript Document
+var videos = {
+	'kim': "https://www.youtube.com/embed/a9ZmKvROgY0?autoplay=1",
+	'david': "https://www.youtube.com/embed/k4zrDsJfBn8?autoplay=1",
+	'scott': "https://www.youtube.com/embed/OMtWmlzx9HM?autoplay=1",
+	'alyshia':"https://www.youtube.com/embed/JT85-rGSIWs?autoplay=1",
+	'areo':"https://www.youtube.com/embed/mXt5NiQG-h4?autoplay=1",
+	'richard':"https://www.youtube.com/embed/fN85d1dDZec?autoplay=1"
+};
 
-// Video buttons
-function av1btn() {
-	document.getElementById('av1').style.display = 'block'; // show english version
-		document.getElementById('av2').style.display = 'none'; // hide german version
-		document.getElementById('av3').style.display = 'none'; // hide french version
+function renderVideoToElement(videoId, renderToElementId) {
+	var videoUrl = videos[videoId];
+
+	if (videoUrl && renderToElementId) {
+		renderVideo(videoUrl, renderToElementId);
+	}
 }
 
-function av2btn() {
-	document.getElementById('av2').style.display = 'block'; // show german version
-		document.getElementById('av1').style.display = 'none'; // hide english version
-		document.getElementById('av3').style.display = 'none'; // hide french version
-}
+function renderVideo(videoUrl, renderToElementId) {
 
-function av3btn() {
-	document.getElementById('av3').style.display = 'block'; // show french version
-		document.getElementById('av1').style.display = 'none'; // hide english version
-		document.getElementById('av2').style.display = 'none'; // hide german version
-}
+	var ifrm = document.createElement("iframe");
+	ifrm.setAttribute("src", videoUrl);
+	ifrm.className = "embed-responsive-item"
 
-function sv1btn() {
-	document.getElementById('sv1').style.display = 'block'; // show english version
-		document.getElementById('sv2').style.display = 'none'; // hide german version
-		document.getElementById('sv3').style.display = 'none'; // hide french version
-		$("#v1s")[0].src += "&autoplay=1";
-}
-
-function sv2btn() {
-	document.getElementById('sv2').style.display = 'block'; // show german version
-		document.getElementById('sv1').style.display = 'none'; // hide english version
-		document.getElementById('sv3').style.display = 'none'; // hide french version
-}
-
-function sv3btn() {
-	document.getElementById('sv3').style.display = 'block'; // show french version
-		document.getElementById('sv1').style.display = 'none'; // hide english version
-		document.getElementById('sv2').style.display = 'none'; // hide german version
+	$("#".concat(renderToElementId)).hide().html(ifrm).fadeIn(1000);
 }
