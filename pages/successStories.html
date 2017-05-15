@@ -1,89 +1,70 @@
 <div>
 
-		<h1 class="noMarg">Alumni and Student Success Stories</h1>
+  <h1 class="noMarg">Alumni and Student Success Stories</h1>
 
-<div class="col-lg-6">
-		<h2>Alumni</h2>
-        <hr>
-<div class="row">
-  <div class="col-xs-4 col-md-4">
-  <button class="thumbnail" type="button" onclick="av1btn()">
+  <div class="col-lg-6">
+    <h2>Alumni</h2>
+    <hr>
+    <div class="row">
+      <div class="col-xs-4 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('kim', 'av1')">
   <img src="./images/KimMyers.jpg" alt="Kim Myers">
   </button>
-  </div>
-  
-  <div class="col-xs-4 col-md-4">
-    <button class="thumbnail" type="button" onclick="av2btn()">
+      </div>
+
+      <div class="col-xs-4 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('david', 'av1')">
       <img src="./images/DavidOveroye.jpg" alt="David Overoye">
     </button>
-  </div>
-  
-  <div class="col-xs-4 col-md-4">
-    <button class="thumbnail" type="button" onclick="av3btn()">
+      </div>
+
+      <div class="col-xs-4 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('scott', 'av1')">
       <img src="./images/ScottEssman.jpg" alt="Scott Essman">
     </button>
+      </div>
+    </div>
+
+
+    <div class="embed-responsive embed-responsive-4by3" id="av1">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a9ZmKvROgY0" allowfullscreen></iframe>
+    </div>
+
+    <br />
+
   </div>
-</div>
 
+  <div class="col-lg-6">
+    <h2>Students</h2>
+    <hr>
+    <div class="row">
 
-<div class="embed-responsive embed-responsive-4by3" id="av1">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a9ZmKvROgY0" allowfullscreen></iframe>
-      </div>
-
-
-
-<div class="embed-responsive embed-responsive-4by3" id="av2" style="display: none">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k4zrDsJfBn8" allowfullscreen></iframe>
-      </div>
-
-
-<div class="embed-responsive embed-responsive-4by3" id="av3" style="display: none">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OMtWmlzx9HM" allowfullscreen></iframe>
-      </div>
-
-<br />
-
-</div>
-
-<div class="col-lg-6">
-		<h2>Students</h2>
-        <hr>
-<div class="row">
-
-  <div class="col-sm-6 col-md-4">
-    <button class="thumbnail" type="button" onclick="sv1btn()">
+      <div class="col-sm-6 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('alyshia','av2')">
       <img src="./images/AlyshiaFerri.jpg" alt="Alyshia Ferri">
     </button>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <button class="thumbnail" type="button" onclick="sv2btn()">
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('areo','av2')">
       <img src="./images/AreoS.jpg" alt="Areo Saffarzadeh">
     </button>
-  </div>
-  
-  <div class="col-sm-6 col-md-4">
-    <button class="thumbnail" type="button" onclick="sv3btn()">
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <button class="thumbnail" type="button" onclick="renderVideoToElement('richard','av2')">
       <img src="./images/RichardFeldman.jpg" alt="Richard Feldman">
-    </button> 
+    </button>
+      </div>
     </div>
-</div>
 
-<div class="embed-responsive embed-responsive-4by3" id="sv1">
-  <iframe class="embed-responsive-item" id="v1s" src="https://www.youtube.com/embed/JT85-rGSIWs" allowfullscreen></iframe>
-  </div> 
+    <div class="embed-responsive embed-responsive-4by3" id="av2">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JT85-rGSIWs" allowfullscreen></iframe>
+    </div>
 
-<div class="embed-responsive embed-responsive-4by3" id="sv2" style="display: none">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mXt5NiQG-h4" allowfullscreen></iframe>
-      </div>
+    <br />
 
-<div class="embed-responsive embed-responsive-4by3" id="sv3" style="display: none">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fN85d1dDZec" allowfullscreen></iframe>
-      </div>
-
-<br />
-
-</div>
+  </div>
 
 
 </div>
