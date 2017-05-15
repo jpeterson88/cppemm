@@ -7,8 +7,8 @@ var cppemmApp = angular.module('cppemmApp', [
 ]);
 
 cppemmApp.config(function($routeProvider, $locationProvider) {
-    $routeProvider.when('/', {
-        templateUrl: 'pages/program.html',
+    $routeProvider.when('/home', {
+        templateUrl: 'pages/home.html',
     }).
     when('/admissions', {
         templateUrl: 'pages/admissions.html',
@@ -47,7 +47,7 @@ cppemmApp.config(function($routeProvider, $locationProvider) {
         templateUrl: 'pages/thesisProject.html',
     }).
     otherwise({
-        redirectTo: '/program'
+        redirectTo: '/home'
     });
 
     //check browser support
