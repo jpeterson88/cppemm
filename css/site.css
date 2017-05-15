@@ -94,6 +94,13 @@ p,
 	float: right;
 }
 
+.welcome {
+	margin-bottom: 15px;
+	margin-left: 15px;
+	border-radius: 10px;
+	float: right;
+}
+
 .thesis {
 	margin-top:40px;
 	margin-bottom:40px;
@@ -151,7 +158,6 @@ p,
 }
 
 .indent p {
-	/*! border-left: 20px double #cccccc; */
 	padding-left: 20px;
 	margin-bottom: 25px;
 }
@@ -174,6 +180,7 @@ p,
 	background: rgba(237, 193, 80, 0.4);
 	text-transform:none;
 }
+
 
 hr {
 	color: #EBB325;
